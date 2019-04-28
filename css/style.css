@@ -1,5 +1,4 @@
 /* root */
-
 :root {
     --main-color: #00D8DE;
   }
@@ -20,8 +19,21 @@ body {
     color: var(--main-color)
 }
 
+.flex { display: flex;}
+.content-center {justify-content: center}
+.content-between { justify-content: space-between; }
+.content-end { justify-content:flex-end }
+
 .container {
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
+}
+
+/* navigation */
+.global-header .container .logo,
+.global-header .container .account {
+    width: 100%;
+    max-width: 196px;
+    background-color: red;
 }
