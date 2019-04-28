@@ -1,0 +1,21 @@
+/* root */
+
+:root {
+    --main-color: #00D8DE;
+  }
+
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* base */
+body {
+    background-color: #FEFEFE;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    color: var(--main-color)
+}
