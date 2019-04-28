@@ -19,3 +19,9 @@ body {
     line-height: 1.4;
     color: var(--main-color)
 }
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
